@@ -2,7 +2,7 @@
 
 ## !init
 
-Before we can begin doing anything with the map, we have to start a battle. Battle maps only function within the context of an encounter, and while you don't actually have to engage in battle (maybe the party is exploring a cave or castle), the absolute first thing we have to run is `!init begin`.
+Before we can begin doing anything with the map using Discord, we have to start a battle. Battle maps only function within the context of combat (initiative), and while you don't actually have to engage in battle (maybe the party is exploring a cave or castle), the absolute first thing we have to run is `!init begin`.  If you've never used Avrae initiative, you can run `!tutorial` for a list of Avrae led tutorials, two of which will demonstrate how to use some common initiative commands as a player or DM.
 
 _*Example*_
 
@@ -65,7 +65,7 @@ A battle map is pretty lonely without tokens, which represent combatants. Player
 
 _*Example*_
 
-Adding three goblins to the map
+Adding three goblins to the map.  You can see how to edit the url below, but if you're using the `!map` alias, do not edit the url directly.
 
 <!-- tabs:start -->
 
@@ -92,11 +92,11 @@ https://otfbm.io/E7Mr-GO2/D4Mr-GO1/A1Mr-GO3
 
 ## Removing Combatants
 
-Things are gonna die in battle, obviously. You can remove dead or retreated combatants from the map with `I remove <token_name>`. Technically this is an `!init` command, but most folks don't want to go all the way [over here](https://avrae.readthedocs.io/en/latest/cheatsheets/dm_combat.html#removing-from-combat) so we're including it here for completeness. You should really check out the [Avrae docs](https://avrae.readthedocs.io/en/latest/index.html) too though if you haven't already.
+Things are gonna die in battle, obviously. You can remove dead or retreated combatants from the map by removing them from combat.  By default, monsters at 0hp will be removed from combat after their turn ends or you can do it early with `!i remove <token_name>`. Technically this is an `!init` command, but most folks don't want to go all the way [over here](https://avrae.readthedocs.io/en/latest/cheatsheets/dm_combat.html#removing-from-combat) so we're including it here for completeness. You should really check out the [Avrae docs](https://avrae.readthedocs.io/en/latest/index.html) too though if you haven't already.
 
 _*Example*_
 
-Goblin1 and Goblin3 suddenly died seemingly out of nowhere. Goblin2 is scared and confused.
+Goblin 1 and Goblin 3 suddenly died seemingly out of nowhere. Goblin 2 is scared and confused.
 
 <!-- tabs:start -->
 
